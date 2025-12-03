@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header,footer{
+    background-color: lightblue;
+     flex: 0 0 150px;
+}
+
+.center{
+    background-color: lightgreen;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+
+}
+
+nav{
+background-color: lightcoral;
+
+}
+
+main{
+    background-color: lightgoldenrodyellow;
+    flex:3;
+}
+nav,aside{
+    background-color:aquamarine;
+    flex:1;
+}
